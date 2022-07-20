@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <title>AdminPro</title>
@@ -8,20 +7,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 
-  <meta name="description" content="Curso">
-  <meta name="author" content="Jeisson Quintero">
   <!-- Favicon icon -->
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon.png">
+
   <!-- Bootstrap Core CSS -->
   <link href="./assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom CSS -->
   <link href="./assets/css/style.css" rel="stylesheet">
-  <!-- You can change the theme colors from here -->
-  <link href="./assets/css/colors/default-dark.css" id="theme" rel="stylesheet">
-</head>
 
+  <!-- You can change the theme colors from here -->
+  <link id="theme" rel="stylesheet">
+
+  
+
+</head>
 <body class="fix-header card-no-border fix-sidebar">
 
+  <!-- ============================================================== -->
   <!-- Preloader - style you can find in spinners.css -->
   <!-- ============================================================== -->
   <div class="preloader">
@@ -31,9 +33,13 @@
     </div>
   </div>
   <!-- ============================================================== -->
+  <!-- Main wrapper - style you can find in pages.scss -->
+  <!-- ============================================================== -->
 
   <app-root></app-root>
 
+
+  <!-- ============================================================== -->
   <!-- All Jquery -->
   <!-- ============================================================== -->
   <script src="./assets/plugins/jquery/jquery.min.js"></script>
@@ -51,7 +57,9 @@
   <script src="./assets/plugins/sparkline/jquery.sparkline.min.js"></script>
   <!--Custom JavaScript -->
   <script src="./assets/js/custom.js"></script>
-  <!-- ============================================================== -->
-</body>
+  
+  <!-- Chartjs -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 
+</body>
 </html>
